@@ -1,0 +1,15 @@
+Returns an list counting up to the input:
+Input: 4
+Output: 1, 2, 3, 4
+
+if input is divisible by 3 return ping;
+Example Input: 3;
+Example Output: 1, 2, Ping;
+
+If number is divisible by 5, return "Pong";
+ExampleInput: 5;
+ExampleOuput: 1, 2, Ping, 4, Pong;
+
+If number is divisible by 15, return PingPong;
+ExampleInput: 15;
+ExampleOutput: ...13, 14, PingPong;
