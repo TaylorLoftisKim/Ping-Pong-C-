@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-namespace PingPong
+namespace PingPong.Objects
 {
   public class PingPongGenerator
   {
