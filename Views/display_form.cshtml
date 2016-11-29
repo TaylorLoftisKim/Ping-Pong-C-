@@ -1,8 +1,8 @@
 <h1>Your numbers:</h1>
 
 <ul>
-  @foreach (var list in Model)
+  @foreach (var number in Model.GetNumbers())
   {
-    <li>@pingpong.GetNumbers()</li>
+    <li>@number</li>
   }
 </ul>

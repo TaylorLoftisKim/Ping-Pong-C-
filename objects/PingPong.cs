@@ -5,7 +5,12 @@ namespace PingPong.Objects
 {
   public class PingPongGenerator
   {
-    public List<int> myNumbers = new List<int>();
+    private List<int> myNumbers = new List<int>();
+
+    public List<int> GetNumbers()
+    {
+      return myNumbers;
+    }
 
     public void Generator(int userInput)
     {
